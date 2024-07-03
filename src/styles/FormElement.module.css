@@ -1,0 +1,10 @@
+.elementcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 15px;
+}
+
+.button {
+  margin-right: 5px;
+}

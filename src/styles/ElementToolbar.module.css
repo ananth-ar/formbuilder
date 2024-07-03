@@ -1,0 +1,46 @@
+.container {
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: rgb(99, 99, 99);
+}
+
+.formelementcontainer {
+  margin: 2rem 0;
+  justify-content: center;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 120px 120px;
+}
+
+.heading {
+  margin-left: 1.5rem;
+}
+
+.button {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  color: #1f1f1f;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #4096ff;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.buttoncontainer {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
